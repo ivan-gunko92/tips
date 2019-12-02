@@ -1,0 +1,16 @@
+
+re-seq        regexp lazy seq
+partition-by  return lazy seq
+group-by      return map
+interleave   (interleave [:a :b :c] [1 2 3])  (:a 1 :b 2 :c 3)
+interpose    (interpose ", " my-strings) - add separator between
+max-key      instead of max-by
+
+(partition-all n step coll) 
+
+every?
+
+#(last (sort %&))   - get max of multi argument
+#(rest (interleave (repeat %1) %2))  -  interpose
+
+Clojure living: p. 253; week 4
