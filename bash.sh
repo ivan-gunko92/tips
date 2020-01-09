@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Remove all stall symlinks in current directory
+find -L . -name . -o -type d -prune -o -type l -exec rm {} +
+
 # systemd timers list
 
 systemctl list-timers --all --no-pager
