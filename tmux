@@ -8,3 +8,6 @@ move pane: prefix + t<secondary-key> - join currently marked pane (prefix + m) t
 
 switches to the last session: prefix + S
 
+Tmux Resurrect
+prefix + Ctrl-s - save
+prefix + Ctrl-r - restore
